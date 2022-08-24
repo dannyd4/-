@@ -10,3 +10,14 @@ for (int i = 0; i < 4; i++)
 
 Console.Write("[" + string.Join(", ", array) + "]");
 
+//Второй шаг проверяем длину каждого элемента созданного массива и выводим в форме нового массива.
+Console.WriteLine();
+
+int n = 0;
+for (int i = 0; i < 4; i++)
+{
+    if (array[i].Length < 4)
+    {
+        n++;
+    }
+}
